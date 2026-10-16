@@ -4,6 +4,7 @@ import linkedinLogoLight from '../assets/linkedin_light.svg'
 import emailLogoLight from '../assets/email_light.svg'
 import phoneLogoLight from '../assets/phone_light.svg'
 import portfolioData from '../experiences.json'
+import ProfilePicture from '../assets/media/profile_picture.jpg'
 
 function Home() {
     // const experiences = portfolioData.experiences.map(experience => ({
@@ -18,7 +19,7 @@ function Home() {
     return (
         <div className="@container">
             <header className="bg-slate-800 text-white flex px-16 py-8 gap-16 items-center font-semibold">
-                <img src="https://placehold.co/200" alt="Profile" className="rounded-full" />
+                <img src={ProfilePicture} alt="Profile" className="rounded-full" />
                 <div className="">
                     <div>
                         <h1 className="name text-5xl">Giulio Scutari</h1>
@@ -41,9 +42,9 @@ function Home() {
                     </a>
                 </div>
             </header>
-            <CardContainer cardList={portfolioData.experiences} title="Companies I worked for:" />
-            <CardContainer cardList={portfolioData.experiences} title="Freelance projects I made:" />
-            <CardContainer cardList={portfolioData.experiences} title="Personal projects I made:" />
+            <CardContainer cardList={portfolioData.experiences.companies} title="Companies I worked for:" />
+            <CardContainer cardList={portfolioData.experiences.freelance_projects} title="Freelance projects I made:" />
+            <CardContainer cardList={portfolioData.experiences.personal_projects} title="Personal projects I made:" />
             <CardContainer cardList={portfolioData.technologies} title="Technologives I have used:" />
         </div>
     );

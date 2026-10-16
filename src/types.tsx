@@ -26,3 +26,5 @@ export type Technology = {
     description: string,
     experiences: Array<Experience>,
 }
+export type Portfolio = {[tech_or_exp:string]:Array<Technology>|{[experience_type:string]:Array<Experience>}
+}

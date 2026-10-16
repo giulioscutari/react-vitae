@@ -1,6 +1,6 @@
 {
-    "technologies": [
-        {
+    "technologies": {
+        "react":{
             "key": 1,
             "slug": "react",
             "title": "React",
@@ -10,7 +10,11 @@
             "used_professionally": true,
             "description": "Component-based UI development for web applications.",
             "description_brief": "Component-based UI development for web applications.",
-            "experiences": [1, 2],
+            "experiences": {
+                "companies":["vedrai", "projec_2"],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
             "internal_link":"/tech/react",
             "external_links": [
                 "https://www.example.com"
@@ -20,7 +24,7 @@
             ],
             "comment": "I love this technology!"
         },
-        {
+        "typescript":{
             "key": 2,
             "slug": "typescript",
             "title": "TypeScript",
@@ -30,7 +34,11 @@
             "used_professionally": true,
             "description": "Typed JavaScript for maintainable frontend applications.",
             "description_brief": "Typed JavaScript for maintainable frontend applications.",
-            "experiences": [],
+            "experiences": {
+                "companies":["vedrai", "projec_2"],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
             "internal_link":"/tech/typescript",
             "external_links": [
                 "https://www.example.com"
@@ -40,86 +48,95 @@
             ],
             "comment": "I love this technology!"
         }
-    ],
-    "experiences": [
-        {
-            "key": 1,
-            "cover": "https://placehold.co/600x400?text=Project+One",
-            "logo": "https://placehold.co/64?text=1",
-            "title": "Project One",
-            "role": "Frontend Developer",
-            "description": "A placeholder project built with React.",
-            "description_brief": "A placeholder project built with React.",
-            "role_description": "Designed and implemented the user interface.",
-            "contributions": [
-                "Built reusable interface components",
-                "Improved responsive layouts"
-            ],
-            "start_date": "2024-01-01",
-            "end_date": "2024-06-01",
-            "technologies": ["react", "typescript"],
-            "internal_link": "/experience/1",
-            "external_links": []
+    },
+    "experiences": {
+        "companies": {
+            "vedrai":{
+                "key": 1,
+                "slug":"vedrai",
+                "cover": "https://media.licdn.com/dms/image/v2/D4E3DAQECIrDYSub9qQ/image-scale_191_1128/B4EZsxOV2wJQAc-/0/1766057412450/vedrai_cover?e=1792756800&v=beta&t=8BJwn5k7xAq-cjsjEbn6Pfy5sDFPjICIZ430uVslUO4",
+                "logo": "https://media.licdn.com/dms/image/v2/D4E0BAQFbThoancXjFQ/company-logo_200_200/B4EZsxP3avHEAo-/0/1766057802516/vedrai_logo?e=1793836800&v=beta&t=kSu2Htz2PZYD3O4lv77xvueUzWFVxYFIA1VfKUNK918",
+                "title": "Vedrai S.p.A",
+                "role": "Senior Product Engineer",
+                "description": "Vedrai offers AI tools for strategic-consulting.",
+                "description_brief": "Vedrai offers AI tools for strategic-consulting.",
+                "role_description": " I worked on systems to import, clean, structure data to make it available elsewhere.",
+                "contributions": [
+                    "Designed, implemented and monitored in production components of WhAI, Vedrai's main application, with associated automated tests;",
+                    "Optimized data import and aggregation, removing 5-10 minutes of waiting for the user;",
+                    "Created internal tools to export the graph, data, custom simulation and simulation targets between databases of different environments, without any primary keys but conserving relationships;"
+    
+                ],
+                "start_date": "2024-08-01",
+                "end_date": "2024-10-01",
+                "technologies": ["python", "django", "drf", "docker", "compose", "gitlabCI", "postgres", "aws"],
+                "internal_link": "/companies/vedrai",
+                "external_links": []
+            },
+            "projec_2": {
+                "key": 2,
+                "slug":"project_2",
+                "cover": "https://placehold.co/600x400?text=Project+Two",
+                "logo": "https://placehold.co/64?text=2",
+                "title": "Project Two",
+                "role": "Web Developer",
+                "description": "A placeholder project built with TypeScript.",
+                "description_brief": "A placeholder project built with TypeScript.",
+                "role_description": "Developed and maintained application features.",
+                "contributions": [
+                    "Added typed application logic",
+                    "Integrated reusable components"
+                ],
+                "start_date": "2023-07-01",
+                "end_date": "2023-12-01",
+                "technologies": ["typescript"],
+                "internal_link": "/companies/2",
+                "external_links": [],
+                "slides": [
+                    "https://placehold.co/1280x720?text=Slide+1",
+                    "https://placehold.co/1280x720?text=Slide+2",
+                    "https://placehold.co/1280x720?text=Slide+3",
+                    "https://placehold.co/1280x720?text=Slide+4",
+                    "https://placehold.co/1280x720?text=Slide+5",
+                    "https://placehold.co/1280x720?text=Slide+6",
+                    "https://placehold.co/1280x720?text=Slide+7",
+                    "https://placehold.co/1280x720?text=Slide+8"
+                ]
+            },
+    
+            "3": {
+                "key": 3,
+                "slug":"3",
+                "cover": "https://placehold.co/600x400?text=Project+Three",
+                "logo": "https://placehold.co/64?text=3",
+                "title": "Project Three",
+                "role": "",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "description_brief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+                "role_description": "",
+                "contributions": [
+                ],
+                "start_date": "2023-07-01",
+                "end_date": "2023-12-01",
+                "technologies": ["typescript"],
+                "internal_link": "/companies/3",
+                "external_links": [
+                    "https://github.com/giulioscutari/quickdraw",
+                    "https://www.example.com"
+                ],
+                "slides": [
+                    "https://placehold.co/1280x720?text=Slide+1",
+                    "https://placehold.co/1280x720?text=Slide+2",
+                    "https://placehold.co/1280x720?text=Slide+3",
+                    "https://placehold.co/1280x720?text=Slide+4",
+                    "https://placehold.co/1280x720?text=Slide+5",
+                    "https://placehold.co/1280x720?text=Slide+6",
+                    "https://placehold.co/1280x720?text=Slide+7",
+                    "https://placehold.co/1280x720?text=Slide+8"
+                ]
+            }
         },
-        {
-            "key": 2,
-            "cover": "https://placehold.co/600x400?text=Project+Two",
-            "logo": "https://placehold.co/64?text=2",
-            "title": "Project Two",
-            "role": "Web Developer",
-            "description": "A placeholder project built with TypeScript.",
-            "description_brief": "A placeholder project built with TypeScript.",
-            "role_description": "Developed and maintained application features.",
-            "contributions": [
-                "Added typed application logic",
-                "Integrated reusable components"
-            ],
-            "start_date": "2023-07-01",
-            "end_date": "2023-12-01",
-            "technologies": ["typescript"],
-            "internal_link": "/experience/2",
-            "external_links": [],
-            "slides": [
-                "https://placehold.co/1280x720?text=Slide+1",
-                "https://placehold.co/1280x720?text=Slide+2",
-                "https://placehold.co/1280x720?text=Slide+3",
-                "https://placehold.co/1280x720?text=Slide+4",
-                "https://placehold.co/1280x720?text=Slide+5",
-                "https://placehold.co/1280x720?text=Slide+6",
-                "https://placehold.co/1280x720?text=Slide+7",
-                "https://placehold.co/1280x720?text=Slide+8"
-            ]
-        },
-
-        {
-            "key": 3,
-            "cover": "https://placehold.co/600x400?text=Project+Three",
-            "logo": "https://placehold.co/64?text=3",
-            "title": "Project Three",
-            "role": "",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-            "description_brief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
-            "role_description": "",
-            "contributions": [
-            ],
-            "start_date": "2023-07-01",
-            "end_date": "2023-12-01",
-            "technologies": ["typescript"],
-            "internal_link": "/experience/3",
-            "external_links": [
-                "https://github.com/giulioscutari/quickdraw",
-                "https://www.example.com"
-            ],
-            "slides": [
-                "https://placehold.co/1280x720?text=Slide+1",
-                "https://placehold.co/1280x720?text=Slide+2",
-                "https://placehold.co/1280x720?text=Slide+3",
-                "https://placehold.co/1280x720?text=Slide+4",
-                "https://placehold.co/1280x720?text=Slide+5",
-                "https://placehold.co/1280x720?text=Slide+6",
-                "https://placehold.co/1280x720?text=Slide+7",
-                "https://placehold.co/1280x720?text=Slide+8"
-            ]
-        }
-    ]
+    "freelance_projects": [],
+    "personal_projects": []
+    }
 }

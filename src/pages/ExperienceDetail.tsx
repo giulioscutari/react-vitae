@@ -1,13 +1,16 @@
 import { useParams } from 'react-router-dom';
 import portfolioData from '../experiences.json';
+import type { Technology, Experience, Portfolio } from '../types';
 import GenericHeader from '../components/GenericHeader';
 import TechnologyBadge from '../components/TechnologyBadge';
 import SlideShow from '../components/SlideShow';
 import LogoBig from '../components/LogoBig'
 
+
 function ExperienceDetail() {
-    const { experienceId } = useParams();
-    const experience = portfolioData.experiences.find(exp => exp.key === Number(experienceId));
+    const { experienceType, experienceSlug } = useParams();
+    const portfolio: Portfolio = portfolioData
+    const experience = portfolio["experiences"][experienceType][experienceSlug];
     const logo = <LogoBig href={experience?.logo || "https://placehold.co/100"} alt={experience?.title || "Company Logo"}/>
     let contributions = (<div className="bg-slate-100 rounded-lg shadow-md my-16 p-4"> 
                         <h4 className="text-lg font-bold">My main contributions:</h4>

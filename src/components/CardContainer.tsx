@@ -1,11 +1,17 @@
 import Card from './Card';
 import type { Experience } from '../types';
-import { createContext } from 'react';
+import { createContext} from 'react';
 
-function CardContainer({ cardList = [], title = "" }: { cardList?: Array<Experience>; title?: string }) {
-    const cards = cardList.map((card) => (
-        <Card key={card.key} obj={card} />
-    ));
+function CardContainer({ cardList = {}, title = "" }: { cardList?: Array<Experience>; title?: string }) {
+
+    let cards: Array<typeof Card> = []
+    console.log(cardList)
+    Object.values(cardList).forEach(card => {
+        cards.push(
+            <Card key={card.slug} obj={card} />
+        )
+    })
+
     const CardContext = createContext<Experience[]>(cardList);
     return (
         <div className="cards-container py-10">

@@ -1,4 +1,5 @@
 import { useParams } from 'react-router-dom';
+import type { Portfolio } from '../types';
 import GenericHeader from '../components/GenericHeader';
 import LogoBig from '../components/LogoBig';
 import portfolioData from '../experiences.json';
@@ -8,7 +9,10 @@ import CardContainer from '../components/CardContainer';
 function TechnologyDetail() {
 
     const { technologySlug } = useParams();
-    const technology = portfolioData.technologies.find(t => t.slug === technologySlug);
+    const portfolio: Portfolio = portfolioData
+    // const technology = portfolioData.technologies.find(t => t.slug === technologySlug);
+    const technology = portfolio["technologies"][technologySlug];
+    console.log(technology)
     let achievements = (<div className="bg-slate-100 rounded-lg shadow-md my-16 p-4"> 
                         <h4 className="text-lg font-bold">My main achievements:</h4>
                         <ul className="list-disc list-inside m-4">
@@ -23,9 +27,28 @@ function TechnologyDetail() {
                                 {technology?.external_links.map((link, index) => <li key={index}><a href={link} target="_blank" className='underline text-blue-700'>{link}</a></li>)}
                             </ul>
         }
-    let experiences = false
-    if (technology?.experiences.length > 0) {
-        experiences = technology.experiences.map((index, _) => portfolioData.experiences[index])
+    let experiences: Array<Object> = []
+    if (technology?.experiences.companies.length > 0 ||
+        technology?.experiences.personal_projects.length > 0 ||
+        technology?.experiences.freelance_projects.length > 0 
+    ) {
+
+        Object.entries(technology.experiences).forEach(([exp_type, exp_slugs]) => {
+            console.log("In cycle with ", exp_type, exp_slugs)
+            Object.values(portfolio["experiences"][exp_type]).forEach(value => {
+                console.log("In cycle with ", value)
+                console.log(`${value.slug} in ${exp_slugs}: ${exp_slugs.includes(value.slug)}`)
+                if (exp_slugs.includes(value.slug)) {
+                    
+                    console.log("Adding experience " + portfolio["experiences"][exp_type][value.slug] + "to experiences")
+                    experiences.push(portfolio["experiences"][exp_type][value.slug])
+                }
+            })
+            // experiences.push(portfolio[exp_type])
+        })
+        // experiences = technology.experiences.companies.map((index, _) => portfolio.experiences[index]) 
+        console.log(technology?.experiences.companies.length > 0 ||technology?.experiences.personal_projects.length > 0 || technology?.experiences.freelance_projects.length > 0)
+        console.log(experiences)
     }
     return (
         <div className="@container">
@@ -45,7 +68,7 @@ function TechnologyDetail() {
 
                     {technology?.achievements.length > 0 && achievements}
 
-                    {technology?.experiences.length > 0 ? (<div className="bg-slate-100 rounded-lg shadow-md my-16 p-4"> 
+                    {experiences.length > 0 ? (<div className="bg-slate-100 rounded-lg shadow-md my-16 p-4"> 
                         <h4 className="text-lg font-bold"></h4>
                         <CardContainer cardList={experiences} title={`Things where I used ${technology?.title}:`}/>
                     </div>): ""}

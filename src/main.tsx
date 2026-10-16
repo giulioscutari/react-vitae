@@ -30,7 +30,7 @@ createRoot(document.getElementById('root')!).render(
     <Routes>
         <Route element={<AppLayout />}>
             <Route path="/" element={<Home />} />
-            <Route path="/experience/:experienceId" element={<ExperienceDetail />} />
+            <Route path="/:experienceType/:experienceSlug" element={<ExperienceDetail />} />
             <Route path="/tech/:technologySlug" element={<TechnologyDetail />} />
         </Route>
         {/* <Route path="*" element={<NotFound />} /> */}
