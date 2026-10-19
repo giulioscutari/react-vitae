@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Card({ obj }: { obj: Experience }) {
     return (
         <div className="card bg-slate-100 rounded-lg shadow-md w-64 flex flex-col">
-            <img src={obj.cover || "https://placehold.co/150"} alt={obj.title || "Card Image"} className="card-image rounded-t-lg h-full object-cover" />
+            <img src={obj.cover || "https://placehold.co/150"} alt={obj.title || "Card Image"} className="card-image rounded-t-lg w-full h-full object-fill " />
             <div className="card-body p-4 h-auto">
                 <h3 className="text-lg font-bold">{obj.title || "Card Title"}</h3>
                 <p className="text-gray-700">{obj.description_brief || "Card description goes here."}</p>

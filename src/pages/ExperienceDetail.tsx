@@ -54,7 +54,7 @@ function ExperienceDetail() {
                         <h4 className="text-lg font-bold">Technologies used:</h4>
                         <div className="flex m-4 gap-8">
                             {experience?.technologies.map((technology, index) => (
-                                <TechnologyBadge key={index} technology={technology} />
+                                <TechnologyBadge key={index} technologySlug={technology} />
                             ))}
                         </div>
                     </div>

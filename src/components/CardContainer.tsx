@@ -16,7 +16,7 @@ function CardContainer({ cardList = {}, title = "" }: { cardList?: Array<Experie
     return (
         <div className="cards-container py-10">
             <h4 className="text-2xl font-bold text-center pb-4">{title ? title : "Card Container"}</h4>
-            <div className="flex gap-8 justify-center">
+            <div className="flex flex-wrap gap-8 justify-center ">
                 <CardContext.Provider value={cardList}>
                     {cards}
                 </CardContext.Provider>
