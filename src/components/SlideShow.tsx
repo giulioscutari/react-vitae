@@ -1,4 +1,5 @@
 import { useState } from "react";
+import type { MouseEvent } from "react";
 import ChevronLeft from "../assets/chevron-left.svg"
 import ChevronRight from "../assets/chevron-right.svg"
 
@@ -6,21 +7,21 @@ function SlideShow({ images }: { images: string[] }) {
     const [open, setOpen] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    function handleClickNext(event){
+    function handleClickNext(event: MouseEvent<HTMLImageElement>){
         if (currentIndex + 1 < images.length){
             setCurrentIndex(currentIndex+1);
         } 
         event?.stopPropagation()
     }
     
-    function handleClickPrevious(event){
+    function handleClickPrevious(event: MouseEvent<HTMLImageElement>){
         if (currentIndex > 0){
             setCurrentIndex(currentIndex-1);
         } 
         event?.stopPropagation()
     }
     
-    function handleClickThumbnail(index){
+    function handleClickThumbnail(index: number){
         setCurrentIndex(index)
         setOpen(true)
     }
@@ -29,7 +30,7 @@ function SlideShow({ images }: { images: string[] }) {
     if (nImages <= 4) {
         thumbnails = images.map((src, index) => <img src={src} className="w-23 h-23 min-w-23 min-h-23 object-cover" key={index} onClick={() => handleClickThumbnail(index)}/>)
     }else{
-        let three_images = images.filter((value, index) => index < 3)
+        let three_images = images.filter((_, index) => index < 3)
         thumbnails = three_images.map((src, index) => <img src={src} className="w-23 h-23 min-w-23 min-h-23 object-cover cursor-pointer border border-slate-600 rounded-2xl shadow-sm" key={index} onClick={() => handleClickThumbnail(index)}/>)
         thumbnails.push(<span className="text-4xl text-center mx-auto my-auto cursor-pointer" onClick={() => handleClickThumbnail(0)}>+{images.length - 3}</span>)
 

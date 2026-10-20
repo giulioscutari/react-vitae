@@ -1,7 +1,7 @@
-import type { Experience } from '../types';
+import type { Experience, Technology } from '../types';
 import { Link } from 'react-router-dom';
 
-function Card({ obj }: { obj: Experience }) {
+function Card({ obj }: { obj: Experience | Technology }) {
     return (
         <div className="card bg-slate-100 rounded-lg shadow-md w-64 flex flex-col">
             <img src={obj.cover} alt={obj.title || "Card Image"} className="card-image rounded-t-lg object-fill h-48 object-top" />
