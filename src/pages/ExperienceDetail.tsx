@@ -31,7 +31,7 @@ function ExperienceDetail() {
     return (<>
         <div className="@container">
             <GenericHeader />
-            <img src={experience?.cover || "https://placehold.co/600x400"} alt={experience?.title || "Company Image"} className="w-full h-64 object-cover" />
+            <img src={experience?.cover || "https://placehold.co/600x400"} alt={experience?.title || "Company Image"} className="w-full object-fill" />
             <div className="mx-24">
                 <div className="experience-title my-8 flex items-center gap-16">
                     {slideShow || logo}

@@ -4,7 +4,7 @@ import linkedinLogoLight from '../assets/linkedin_light.svg'
 import emailLogoLight from '../assets/email_light.svg'
 import phoneLogoLight from '../assets/phone_light.svg'
 import portfolioData from '../experiences.json'
-import ProfilePicture from '../assets/media/profile_picture.jpg'
+import ProfilePicture from '../../public/media/profile_picture.jpg'
 
 function Home() {
     // const experiences = portfolioData.experiences.map(experience => ({
