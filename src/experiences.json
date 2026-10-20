@@ -28,8 +28,8 @@
             "key": 2,
             "slug": "typescript",
             "title": "TypeScript",
-            "cover": "/src/assets/media/ts-lettermark-blue.png",
-            "logo": "/src/assets/media/ts-logo-round-256.svg",
+            "cover": "/media/ts-lettermark-blue.png",
+            "logo": "/media/ts-logo-round-256.svg",
             "experience": 2,
             "used_professionally": false,
             "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
@@ -50,7 +50,7 @@
             "key": 0,
             "slug": "python",
             "title": "Python",
-            "cover": "/src/assets/media/1920x1080-Python-Logo.png",
+            "cover": "/media/1920x1080-Python-Logo.png",
             "logo": "https://clipart-library.com/new_gallery/289-2896071_python-logo-png-165709.png",
             "experience": 2,
             "used_professionally": true,
@@ -76,7 +76,7 @@
             "slug": "flask",
             "title": "Flask",
             "cover": "https://flask.palletsprojects.com/en/stable/_images/flask-name.svg",
-            "logo": "/src/assets/media/flask_logo.png",
+            "logo": "/media/flask_logo.png",
             "experience": 2,
             "used_professionally": true,
             "description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
@@ -99,7 +99,7 @@
             "key": 2,
             "slug": "django",
             "title": "Django",
-            "cover": "/src/assets/media/django_cover.png",
+            "cover": "/media/django_cover.png",
             "logo": "https://www.kamatera.com/wp-content/uploads/apps-services-images/django.png",
             "experience": 2,
             "used_professionally": true,
@@ -185,7 +185,7 @@
             "slug": "fastapi",
             "title": "FastAPI",
             "cover": "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png",
-            "logo": "/src/assets/media/fastapi-logo.svg",
+            "logo": "/media/fastapi-logo.svg",
             "experience": 2,
             "used_professionally": true,
             "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
@@ -255,7 +255,7 @@
             "key": 6,
             "slug": "tailwind",
             "title": "TailwindCSS",
-            "cover": "/src/assets/media/tailwindcss-logotype.svg",
+            "cover": "/media/tailwindcss-logotype.svg",
             "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.0~s.iziag2xd..svg",
             "experience": 2,
             "used_professionally": true,
@@ -302,8 +302,8 @@
             "maieutical": {
                 "key": 2,
                 "slug":"maieutical",
-                "cover": "/src/assets/media/maieutical_cover.svg",
-                "logo": "/src/assets/media/maieutical_labs_s_r_l__logo.jpg",
+                "cover": "/media/maieutical_cover.svg",
+                "logo": "/media/maieutical_labs_s_r_l__logo.jpg",
                 "title": "Maieutical Labs S.r.l.",
                 "role": "Senior Backend Developer",
                 "description": "Maieutical Labs develops tools for teachers and students in high school.",
@@ -326,7 +326,7 @@
                 "key": 3,
                 "slug":"20tab",
                 "cover": "https://www.20tab.com/images/logo-light.svg",
-                "logo": "/src/assets/media/20tab-logo-light.svg",
+                "logo": "/media/20tab-logo-light.svg",
                 "title": "20tab S.r.l.",
                 "role": "Backend Developer",
                 "description": "From strategy to execution, 20tab designs digital solutions that create measurable impact.",
@@ -351,8 +351,8 @@
             "pigro": {
                 "key": 4,
                 "slug":"pigro",
-                "cover": "/src/assets/media/pigro_cover.jpg",
-                "logo": "/src/assets/media/pigro_logo.jpg",
+                "cover": "/media/pigro_cover.jpg",
+                "logo": "/media/pigro_logo.jpg",
                 "title": "Pigro S.r.l.",
                 "role": "Full Stack Developer",
                 "description": "Pigro Srl is an AI-startup aiming to make knowledge management and retrieval as simple as possible.",
@@ -377,7 +377,7 @@
             "andromeda": {
                 "key": 0,
                 "slug":"andromeda",
-                "cover": "/src/assets/media/Andromeda_Logo2_WSHx.png",
+                "cover": "/media/Andromeda_Logo2_WSHx.png",
                 "logo": "",
                 "title": "Andromeda",
                 "role": "Web Developer",
@@ -398,13 +398,13 @@
                 "internal_link": "/freelance_projects/andromeda",
                 "external_links": [],
                 "slides": [
-                    "/src/assets/media/andromeda_screenshot_7.png",
-                    "/src/assets/media/andromeda_screenshot_6.png",
-                    "/src/assets/media/andromeda_screenshot_5.png",
-                    "/src/assets/media/andromeda_screenshot_4.png",
-                    "/src/assets/media/andromeda_screenshot_3.png",
-                    "/src/assets/media/andromeda_screenshot_2.png",
-                    "/src/assets/media/andromeda_screenshot_1.png"
+                    "/media/andromeda_screenshot_7.png",
+                    "/media/andromeda_screenshot_6.png",
+                    "/media/andromeda_screenshot_5.png",
+                    "/media/andromeda_screenshot_4.png",
+                    "/media/andromeda_screenshot_3.png",
+                    "/media/andromeda_screenshot_2.png",
+                    "/media/andromeda_screenshot_1.png"
                 ]
             }
         },
@@ -429,7 +429,7 @@
                     "https://stoplist-iota.vercel.app/"
                 ],
                 "slides": [
-                    "/src/assets/media/stoplist_slide_1.png"
+                    "/media/stoplist_slide_1.png"
                 ]
             },
 
