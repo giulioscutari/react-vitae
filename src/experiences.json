@@ -339,7 +339,7 @@
                 ],
                 "start_date": "2022-05-01",
                 "end_date": "2023-03-30",
-                "technologies": ["python", "django", "docker"],
+                "technologies": ["python", "django", "restframework", "docker"],
                 "internal_link": "/companies/20tab",
                 "external_links": [
                     "https://www.20tab.com/"
