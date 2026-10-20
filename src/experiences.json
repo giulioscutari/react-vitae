@@ -4,49 +4,275 @@
             "key": 1,
             "slug": "react",
             "title": "React",
-            "cover": "https://placehold.co/600x400?text=React",
-            "logo": "https://placehold.co/64?text=R",
+            "cover": "https://s1.qwant.com/thumbr/474x266/9/6/1c845a16acc0bcec2ae2910d4733cd970cd5086d7311c64cae23b49be1e0b5/OIP.DGHkTiiez0oJg05FmIFE5gHaEK.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.DGHkTiiez0oJg05FmIFE5gHaEK%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+            "logo": "https://cdn.freebiesupply.com/logos/large/2x/react-1-logo-png-transparent.png",
             "experience": 1,
-            "used_professionally": true,
-            "description": "Component-based UI development for web applications.",
+            "used_professionally": false,
+            "description": "React lets you build user interfaces out of individual pieces called components. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.",
             "description_brief": "Component-based UI development for web applications.",
             "experiences": {
-                "companies":["vedrai", "projec_2"],
+                "companies":[],
                 "freelance_projects":[],
                 "personal_projects":[]
             },
             "internal_link":"/tech/react",
             "external_links": [
-                "https://www.example.com"
+                "https://react.dev/"
             ],
             "achievements": [
-                "Made reusable components for a CRUD application."
+                
             ],
-            "comment": "I love this technology!"
+            "comment": "Once I wrapped my head around it, React made front-end development actually fun for a long-time backend developer like me. Sure, TypeScript is a bit tricky at times, and new syntax is always challenging, but it is a lot better than what I was taught in school with pure HTML and Bootstrap."
         },
         "typescript":{
             "key": 2,
             "slug": "typescript",
             "title": "TypeScript",
-            "cover": "https://placehold.co/600x400?text=TypeScript",
-            "logo": "https://placehold.co/64?text=TS",
+            "cover": "/src/assets/media/ts-lettermark-blue.png",
+            "logo": "/src/assets/media/ts-logo-round-256.svg",
             "experience": 2,
-            "used_professionally": true,
-            "description": "Typed JavaScript for maintainable frontend applications.",
-            "description_brief": "Typed JavaScript for maintainable frontend applications.",
+            "used_professionally": false,
+            "description": "TypeScript is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+            "description_brief": "TypeScript is JavaScript with syntax for types.",
             "experiences": {
-                "companies":["vedrai", "projec_2"],
+                "companies":[],
                 "freelance_projects":[],
                 "personal_projects":[]
             },
             "internal_link":"/tech/typescript",
             "external_links": [
+                "https://www.typescriptlang.org/"
+            ],
+            "achievements": [],
+            "comment": "Being strongly typed, it took a me a little while to get used to TypeScript and how easily it complains, but making this website already I saw how it helps maintanability. It's nice that TypeScript is now the main language for front-end web uses."
+        },
+        "python":{
+            "key": 0,
+            "slug": "python",
+            "title": "Python",
+            "cover": "/src/assets/media/1920x1080-Python-Logo.png",
+            "logo": "https://clipart-library.com/new_gallery/289-2896071_python-logo-png-165709.png",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "Python is powerful... and fast; plays well with others; runs everywhere; is friendly & easy to learn; is Open.",
+            "description_brief": "The easiest-to-understand object-oriented language around.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/python",
+            "external_links": [
+                "https://www.python.org/"
+            ],
+            "achievements": [
+                "5+ years of experience;",
+                "Used extensively in web applications, processing pipelines, script, and more;"
+            ],
+            "comment": "Python is the language I have the most experience with. I used it extensively with Django, Flask and FastAPI in my work as a back-end developer, although I started using this language to automate small tasks I had to do with some web-scraping back in an internship in 2019. It has its flaws, but it is always nice to write code with."
+        },
+        "flask":{
+            "key": 1,
+            "slug": "flask",
+            "title": "Flask",
+            "cover": "https://flask.palletsprojects.com/en/stable/_images/flask-name.svg",
+            "logo": "/src/assets/media/flask_logo.png",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
+            "description_brief": "A lightweight web framework for Python.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/flask",
+            "external_links": [
+                "https://flask.palletsprojects.com/en/stable/"
+            ],
+            "achievements": [
+                "Maintained and developed the web application 'Andromeda' with it."
+            ],
+            "comment": "Flask might demand more than Django when starting a process, but the simplicity and control one gets from this trade-off can make it worth it for both small projects to deploy quickly and complex application where a more complete framework can be limiting. I quite like it, though nowadays FastAPI feels like a direct upgrade."
+        },
+        "django":{
+            "key": 2,
+            "slug": "django",
+            "title": "Django",
+            "cover": "/src/assets/media/django_cover.png",
+            "logo": "https://www.kamatera.com/wp-content/uploads/apps-services-images/django.png",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "Django makes it easier to build better web apps more quickly and with less code.",
+            "description_brief": "A more complete web framework with Python with its own ORM.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/django",
+            "external_links": [
+                "https://www.djangoproject.com/"
+            ],
+            "achievements": [
+                "5+ years of experience;",
+                "Maintained and developed various web applications; it is the framework taht I have the most experience with;",
+                "Wrote extensive unit tests with unittest and pytest, sometimes striving for 100% coverage;",
+                "Created CLI management commands to import and export data, perform database fixes when something broke, and more;",
+                "Sent emails, created asynchronous tasks;",
+                "Launched AWS Lambda tools from it, uplaoded and downlaoded files from AWS S3, and more;"
+            ],
+            "comment": "I have used Django a lot. It really provides a lot of boilerprate functions - from authentication to its administration site - that makes development really easy, as long as one is trying to make something within its scope."
+        },
+        "restframework":{
+            "key": 3,
+            "slug": "restframework",
+            "title": "Django REST Framework",
+            "cover": "https://www.django-rest-framework.org/img/logo-dark.png#light",
+            "logo": "https://www.django-rest-framework.org/theme/img/logo.png",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "A Python framework with tools for APIs, a browsable API, and more.",
+            "description_brief": "Django REST framework is a powerful and flexible toolkit for building Web APIs.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/restframework",
+            "external_links": [
+                "https://www.django-rest-framework.org/"
+            ],
+            "achievements": [
+                "5+ years of experience;",
+                "Maintained and developed various web applications; it is the framework taht I have the most experience with;",
+                "Wrote extensive unit tests with unittest and pytest, sometimes striving for 100% coverage;",
+                "Created CLI management commands to import and export data, perform database fixes when something broke, and more;",
+                "Sent emails, created asynchronous tasks;",
+                "Launched AWS Lambda tools from it, uplaoded and downlaoded files from AWS S3, and more;"
+            ],
+            "comment": "Django REST Framework does to making APIs what Django does to a CRM, and it is fantastic. It takes minutes to from installing the package and implementing endpoints for basic CRUD operations, knowing the authentication is trustworthy and transactions will ensure the database is consistent even when something breaks."
+        },
+
+        "sqlalchemy":{
+            "key": 4,
+            "slug": "sqlalchemy",
+            "title": "SQLAlchemy",
+            "cover": "https://www.sqlalchemy.org/img/sqla_logo.png",
+            "logo": "https://placehold.co/64?text=SQLAlchemy",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.",
+            "description_brief": "A lightweight ORM for Python.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/sqlalchemy",
+            "external_links": [
                 "https://www.example.com"
             ],
             "achievements": [
-                "replaced JavaScript with it."
+                "Introduced it on the project 'Andromeda', replacing unsafe plain SQL;",
+                "Automated database migrations through Alembic;"
             ],
-            "comment": "I love this technology!"
+            "comment": "SQLAlchemy is extremely flexible, and its API can be used for anything anyone needs to do with an SQL database without ever leaving the ORM system and having to write plain SQL. It goes really well with FastAPI and Flask, and thanks to Alembic it is possible to create migrations for it. It might be harder to set-up than Django's ORM, but once that is done it makes things just as easy."
+        },
+
+        "fastapi":{
+            "key": 5,
+            "slug": "fastapi",
+            "title": "FastAPI",
+            "cover": "https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png",
+            "logo": "/src/assets/media/fastapi-logo.svg",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+            "description_brief": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/fastapi",
+            "external_links": [
+                "https://fastapi.tiangolo.com/"
+            ],
+            "achievements": [
+            ],
+            "comment": "FastAPI is my favourite backend framework at the moment. I have not had the pleasure to use it in a business environment yet, but every time I start a project for myself that involves a backend, I want to use FastAPI. It is lighting fast, it takes care of validation and creates a browsable API, and with the other tools from Tiangolo - SQLModel, for starters - it can do a lot."
+        },
+        "bootstrap":{
+            "key": 6,
+            "slug": "bootstrap",
+            "title": "Bootstrap 5",
+            "cover": "https://s1.qwant.com/thumbr/474x263/1/b/b0c0a7570c51f5be85942686d25f0b7fb946c8c57d016e759d02d73c4fc977/OIP.CkgRbcxgOFwT7LnV-kPEUQHaEH.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.CkgRbcxgOFwT7LnV-kPEUQHaEH%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+            "logo": "https://s2.qwant.com/thumbr/474x474/4/b/780e7e6a7e0cc4b996ff10333324bbf7a26ea031b6988afafab343916eca25/OIP.KTq5K5E3QeLVrm71FR0w8gHaHa.jpg?u=https%3A%2F%2Ftse.mm.bing.net%2Fth%2Fid%2FOIP.KTq5K5E3QeLVrm71FR0w8gHaHa%3Fpid%3DApi&q=0&b=1&p=0&a=0",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.",
+            "description_brief": "Bootstrap is a powerful, feature-packed frontend toolkit. Build anything—from prototype to production—in minutes.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/bootstrap",
+            "external_links": [
+                "https://getbootstrap.com/"
+            ],
+            "achievements": [
+            ],
+            "comment": "Bootstrap helped me a lot in the past. The container/row/columns system is easy to pick up and use, the default color-schema is great to get started, and combined with some SCSS, Bootstrap 5 can still do a lot, especially in more static contexts, say with Jinja templates."
+        },
+
+        "docker":{
+            "key": 0,
+            "slug": "docker",
+            "title": "Docker & Docker Compose",
+            "cover": "https://pbs.twimg.com/profile_banners/1138959692/1790216408/600x200",
+            "logo": "https://pbs.twimg.com/profile_images/2102946150831828992/5lpInj4b_400x400.jpg",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "The most widespread containerization system.",
+            "description_brief": "The most widespread containerization system.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/docker",
+            "external_links": [
+                "https://www.docker.com/"
+            ],
+            "achievements": [
+            ],
+            "comment": "Docker changed how I did everything. It is amazing to get rid of all the 'works on my machine' issues, but it does not even remotely stop there. Since I started using it I always try to do everything that requires some configuration as a docker image. PostGRES database? Add it to the docker-compose.yaml. Need a reverse proxy? NGINX is in the compose now, and its files are part of the repository. Everyone who ever had to change code on a server manually knows there is no better feeling than getting these things automated and well defined, and Docker is the cornerstone of all that. Nowadays even if I do some self-hosting the first thing I ask myself is \"Is there a Docker image for this?\"."
+        },
+
+        "tailwind":{
+            "key": 6,
+            "slug": "tailwind",
+            "title": "TailwindCSS",
+            "cover": "/src/assets/media/tailwindcss-logotype.svg",
+            "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.0~s.iziag2xd..svg",
+            "experience": 2,
+            "used_professionally": true,
+            "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+            "description_brief": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+            "experiences": {
+                "companies":[],
+                "freelance_projects":[],
+                "personal_projects":[]
+            },
+            "internal_link":"/tech/tailwind",
+            "external_links": [
+                "https://tailwindcss.com/"
+            ],
+            "achievements": [
+            ],
+            "comment": "Like React, Tailwind made creating frontend applications fun again. Bootstrap works, but with now it connects style to semantics it can be clunky at times. Tailwind becomes more flexible without having to modify and compile SCSS files."
         }
     },
     "experiences": {
@@ -69,74 +295,171 @@
                 ],
                 "start_date": "2024-08-01",
                 "end_date": "2024-10-01",
-                "technologies": ["python", "django", "drf", "docker", "compose", "gitlabCI", "postgres", "aws"],
+                "technologies": ["python", "django", "restframework", "docker"],
                 "internal_link": "/companies/vedrai",
                 "external_links": []
             },
-            "projec_2": {
+            "maieutical": {
                 "key": 2,
-                "slug":"project_2",
-                "cover": "https://placehold.co/600x400?text=Project+Two",
-                "logo": "https://placehold.co/64?text=2",
-                "title": "Project Two",
-                "role": "Web Developer",
-                "description": "A placeholder project built with TypeScript.",
-                "description_brief": "A placeholder project built with TypeScript.",
+                "slug":"maieutical",
+                "cover": "/src/assets/media/maieutical_cover.svg",
+                "logo": "/src/assets/media/maieutical_labs_s_r_l__logo.jpg",
+                "title": "Maieutical Labs S.r.l.",
+                "role": "Senior Backend Developer",
+                "description": "Maieutical Labs develops tools for teachers and students in high school.",
+                "description_brief": "Maieutical Labs develops tools for teachers and students in high school.",
                 "role_description": "Developed and maintained application features.",
                 "contributions": [
-                    "Added typed application logic",
-                    "Integrated reusable components"
+                    "Improved code quality standards in the application and automated testing;",
+                    "Automated quality-control for content regarding mathematical exercises in order to make the process quicker;",
+                    "Ensure correct deployment of updates through Ansible playbooks;"
                 ],
-                "start_date": "2023-07-01",
-                "end_date": "2023-12-01",
-                "technologies": ["typescript"],
-                "internal_link": "/companies/2",
+                "start_date": "2023-04-01",
+                "end_date": "2024-07-30",
+                "technologies": ["python", "django", "restframework", "docker"],
+                "internal_link": "/companies/maieutical",
                 "external_links": [],
+                "slides": []
+            },
+    
+            "20tab": {
+                "key": 3,
+                "slug":"20tab",
+                "cover": "https://www.20tab.com/images/logo-light.svg",
+                "logo": "/src/assets/media/20tab-logo-light.svg",
+                "title": "20tab S.r.l.",
+                "role": "Backend Developer",
+                "description": "From strategy to execution, 20tab designs digital solutions that create measurable impact.",
+                "description_brief": "From strategy to execution, 20tab designs digital solutions that create measurable impact.",
+                "role_description": "",
+                "contributions": [
+                    "Designed and implemented components on various projects, owning the process from customer request to deployment, with associated automated tests;",
+                    "Talked weekly with customers, showing our progress and discussing their requests;",
+                    "Explored technical viability of solutions, external libraries, etc. ensuring architecture quality and long term functioning;"
+                ],
+                "start_date": "2022-05-01",
+                "end_date": "2023-03-30",
+                "technologies": ["python", "django", "docker"],
+                "internal_link": "/companies/20tab",
+                "external_links": [
+                    "https://www.20tab.com/"
+                ],
                 "slides": [
-                    "https://placehold.co/1280x720?text=Slide+1",
-                    "https://placehold.co/1280x720?text=Slide+2",
-                    "https://placehold.co/1280x720?text=Slide+3",
-                    "https://placehold.co/1280x720?text=Slide+4",
-                    "https://placehold.co/1280x720?text=Slide+5",
-                    "https://placehold.co/1280x720?text=Slide+6",
-                    "https://placehold.co/1280x720?text=Slide+7",
-                    "https://placehold.co/1280x720?text=Slide+8"
                 ]
             },
     
-            "3": {
-                "key": 3,
-                "slug":"3",
-                "cover": "https://placehold.co/600x400?text=Project+Three",
-                "logo": "https://placehold.co/64?text=3",
-                "title": "Project Three",
-                "role": "",
-                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                "description_brief": "Lorem ipsum dolor sit amet, consectetur adipiscing elit...",
+            "pigro": {
+                "key": 4,
+                "slug":"pigro",
+                "cover": "/src/assets/media/pigro_cover.jpg",
+                "logo": "/src/assets/media/pigro_logo.jpg",
+                "title": "Pigro S.r.l.",
+                "role": "Full Stack Developer",
+                "description": "Pigro Srl is an AI-startup aiming to make knowledge management and retrieval as simple as possible.",
+                "description_brief": "Pigro Srl is an AI-startup aiming to make knowledge management and retrieval as simple as possible.",
                 "role_description": "",
                 "contributions": [
+                    "Designed, implemented and deployed database structure, backend APIs, UX of \"Paragraphs\", a public knowledge manager with an AI-powered search engine. I was the sole web developer on the project for than one year, with support of an AI Engineer and QA Tester.",
+                    "Re-implemented on a serverless architecture document-processing pipelines, powered by AWS;"
                 ],
                 "start_date": "2023-07-01",
                 "end_date": "2023-12-01",
-                "technologies": ["typescript"],
-                "internal_link": "/companies/3",
+                "technologies": ["python", "django", "docker", "bootstrap"],
+                "internal_link": "/companies/pigro",
                 "external_links": [
-                    "https://github.com/giulioscutari/quickdraw",
-                    "https://www.example.com"
+                    "https://www.pigro.ai/"
                 ],
                 "slides": [
-                    "https://placehold.co/1280x720?text=Slide+1",
-                    "https://placehold.co/1280x720?text=Slide+2",
-                    "https://placehold.co/1280x720?text=Slide+3",
-                    "https://placehold.co/1280x720?text=Slide+4",
-                    "https://placehold.co/1280x720?text=Slide+5",
-                    "https://placehold.co/1280x720?text=Slide+6",
-                    "https://placehold.co/1280x720?text=Slide+7",
-                    "https://placehold.co/1280x720?text=Slide+8"
                 ]
             }
         },
-    "freelance_projects": [],
-    "personal_projects": []
+        "freelance_projects": {
+            "andromeda": {
+                "key": 0,
+                "slug":"andromeda",
+                "cover": "/src/assets/media/Andromeda_Logo2_WSHx.png",
+                "logo": "",
+                "title": "Andromeda",
+                "role": "Web Developer",
+                "description": "Andromeda is a web-application used by local law enforcement to manage refugee shelters. Its main features are tracking a refugee's situation, lodging, history and legal process to asylum or permanent residency.",
+                "description_brief": "A web application used by local government to better help NGOs working with migrants.",
+                "role_description": "As a freelancer and the sole developer on the project, I cure all aspects of the web application, from database structures to the user interface, from CI/CD pipelines to hosting.",
+                "contributions": [
+                    "Fixed critical systems that reported movement of people;",
+                    "Fixed old reports (excel sheets) with bad calculations, critical errors, etc. and implemented new ones;",
+                    "Introduced SQLAlchemy ORM models, replacing plain SQL; introduced and automated DB migrations through Alembic;",
+                    "Added GitLab pipelines to automatically deploy new changes;",
+                    "Configured SSL certificates on the server;",
+                    "Future-proofing the application, such as ensuring generated files were not saved on disk, limiting DB logs and back-ups to not clog the hard drive;"
+                ],
+                "start_date": "2023-07-01",
+                "end_date": "2023-12-01",
+                "technologies": ["python", "flask", "sqlalchemy", "docker", "bootstrap"],
+                "internal_link": "/freelance_projects/andromeda",
+                "external_links": [],
+                "slides": [
+                    "/src/assets/media/andromeda_screenshot_7.png",
+                    "/src/assets/media/andromeda_screenshot_6.png",
+                    "/src/assets/media/andromeda_screenshot_5.png",
+                    "/src/assets/media/andromeda_screenshot_4.png",
+                    "/src/assets/media/andromeda_screenshot_3.png",
+                    "/src/assets/media/andromeda_screenshot_2.png",
+                    "/src/assets/media/andromeda_screenshot_1.png"
+                ]
+            }
+        },
+        "personal_projects": {
+            "stoplist": {
+                "key": 0,
+                "slug":"stoplist",
+                "cover": "https://placehold.co/2000x600/0d542b/FFFFFF/png?text=stoplist",
+                "logo": "https://placehold.co/200x200/0d542b/FFFFFF/png?text=SL",
+                "title": "Stoplist",
+                "role": "",
+                "description": "Tools like Google Calendar are fantastic to organize your day: you can easily set time aside for anything you want, it is as easy as dragging your mouse on the screen. But what if it's the weekend, and you do not want to start your day at a set time? Or maybe something gets delayed, and now everything after that needs to be pushed thirty minutes, an hour later? Well now you have to drag and drop each thing in your calendar. That's not fun. This app approaches the issue differently: instead of setting a time when a task is supposed to start and end, you only set a duration. Then you start the timer. Taking a break? Simply pause the timer, and the progress stops. It is still rudimentary, and there is more things I want to do with it - you can't sort your tasks at the moment - but it works! Sort of! :D",
+                "description_brief": "A stopwatch and a todo list together.",
+                "role_description": "",
+                "contributions": [],
+                "start_date": "2023-07-01",
+                "end_date": "2023-12-01",
+                "technologies": ["react", "typescript", "tailwind"],
+                "internal_link": "/personal_projects/stoplist",
+                "external_links": [
+                    "https://github.com/giulioscutari/stoplist/",
+                    "https://stoplist-iota.vercel.app/"
+                ],
+                "slides": [
+                    "/src/assets/media/stoplist_slide_1.png"
+                ]
+            },
+
+            "cv": {
+                "key": 1,
+                "slug":"cv",
+                "cover": "https://placehold.co/2000x600/0d542b/FFFFFF/png?text=React Vitae",
+                "logo": "https://placehold.co/200x200/0d542b/FFFFFF/png?text=CV",
+                "title": "React Vitae",
+                "role": "Web Developer",
+                "description": "This project is my Curriculum Vitae in web form, both to make it more reachable and - soon - easily accessbile from mobile, as well as practicing with React and TypeScript.",
+                "description_brief": "This very website!",
+                "role_description": "As a freelancer and the sole developer on the project, I cure all aspects of the web application, from database structures to the user interface, from CI/CD pipelines to hosting.",
+                "contributions": [],
+                "start_date": "2023-07-01",
+                "end_date": "2023-12-01",
+                "technologies": ["react", "typescript", "tailwind"],
+                "internal_link": "/personal_projects/cv",
+                "external_links": [
+                    "https://github.com/giulioscutari/react-vitae"
+                ],
+                "slides": [
+                "https://placehold.co/900x600/0d542b/FFFFFF/png?text=Were you looking for screenshots of this project?",
+                "https://placehold.co/900x600/0d542b/FFFFFF/png?text=You are looking at the website itself!",
+                "https://placehold.co/900x600/0d542b/FFFFFF/png?text=I appreciate your attention to my work.",
+
+                "https://placehold.co/900x600/0d542b/FFFFFF/png?text=I hope you like it. :)"
+                ]
+            }
+
+    }
     }
 }

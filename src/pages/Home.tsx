@@ -42,10 +42,10 @@ function Home() {
                     </a>
                 </div>
             </header>
-            <CardContainer cardList={portfolioData.experiences.companies} title="Companies I worked for:" />
+            <CardContainer cardList={portfolioData.experiences.companies} title="Companies I've worked for:" />
             <CardContainer cardList={portfolioData.experiences.freelance_projects} title="Freelance projects I made:" />
             <CardContainer cardList={portfolioData.experiences.personal_projects} title="Personal projects I made:" />
-            <CardContainer cardList={portfolioData.technologies} title="Technologives I have used:" />
+            <CardContainer cardList={portfolioData.technologies} title="Technologies I have used:" />
         </div>
     );
 }
