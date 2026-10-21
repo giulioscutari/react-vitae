@@ -159,7 +159,7 @@
             "slug": "sqlalchemy",
             "title": "SQLAlchemy",
             "cover": "https://www.sqlalchemy.org/img/sqla_logo.png",
-            "logo": "https://placehold.co/64?text=SQLAlchemy",
+            "logo": "/media/sqlalchemy_logo.png",
             "experience": 2,
             "used_professionally": true,
             "description": "SQLAlchemy is the Python SQL toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQL.",
@@ -171,7 +171,7 @@
             },
             "internal_link":"/tech/sqlalchemy",
             "external_links": [
-                "https://www.example.com"
+                "https://www.sqlalchemy.org/"
             ],
             "achievements": [
                 "Introduced it on the project 'Andromeda', replacing unsafe plain SQL;",
@@ -377,8 +377,8 @@
             "andromeda": {
                 "key": 0,
                 "slug":"andromeda",
-                "cover": "/media/Andromeda_Logo2_WSHx.png",
-                "logo": "",
+                "cover": "/media/andromeda_cover.png",
+                "logo": "/media/andromeda_logo.png",
                 "title": "Andromeda",
                 "role": "Web Developer",
                 "description": "Andromeda is a web-application used by local law enforcement to manage refugee shelters. Its main features are tracking a refugee's situation, lodging, history and legal process to asylum or permanent residency.",
@@ -444,8 +444,8 @@
                 "description_brief": "This very website!",
                 "role_description": "As a freelancer and the sole developer on the project, I cure all aspects of the web application, from database structures to the user interface, from CI/CD pipelines to hosting.",
                 "contributions": [],
-                "start_date": "2023-07-01",
-                "end_date": "2023-12-01",
+                "start_date": "",
+                "end_date": "",
                 "technologies": ["react", "typescript", "tailwind"],
                 "internal_link": "/personal_projects/cv",
                 "external_links": [
