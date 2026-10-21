@@ -18,7 +18,7 @@ function Home() {
     const contactLinksClasses = contactLineClasses + " underline";
     return (
         <div className="@container">
-            <header className="bg-slate-800 text-white flex px-16 py-8 gap-16 items-center font-semibold">
+            <header className="bg-slate-800 text-white flex flex-col md:flex-row px-4 py-4 lg:px-16 lg:py-8 gap-16 items-center font-semibold">
                 <img src={ProfilePicture} alt="Profile" className="rounded-full" />
                 <div className="">
                     <div>

@@ -31,9 +31,9 @@ function ExperienceDetail() {
     return (<>
         <div className="@container">
             <GenericHeader />
-            <img src={experience?.cover || "https://placehold.co/600x400"} alt={experience?.title || "Company Image"} className="w-full object-fill" />
-            <div className="mx-24">
-                <div className="experience-title my-8 flex items-center gap-16">
+            <img src={experience?.cover || "https://placehold.co/600x400"} alt={experience?.title || "Company Image"} className="w-full object-fill hidden md:inline" />
+            <div className="mx-4 md:mx-24">
+                <div className="experience-title my-8 flex md:flex-row flex-col  items-center gap-16">
                     {slideShow || logo}
                     <div className="experience-about">
                         <h2 className="text-2xl font-bold">{experience?.title}</h2>
@@ -50,7 +50,7 @@ function ExperienceDetail() {
 
                     <div className="bg-slate-100 rounded-lg shadow-md my-16 p-4"> 
                         <h4 className="text-lg font-bold">Technologies used:</h4>
-                        <div className="flex m-4 gap-8">
+                        <div className="flex flex-wrap m-4 md:gap-8 gap-2">
                             {experience?.technologies.map((technology, index) => (
                                 <TechnologyBadge key={index} technology={technology} />
                             ))}

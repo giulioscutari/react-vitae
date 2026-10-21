@@ -33,8 +33,8 @@ function TechnologyDetail() {
     return (
         <div className="@container">
             <GenericHeader />
-            <div className="mx-24">
-                <div className="tech-title my-8 flex items-center gap-16">
+            <div className="mx-4 md:mx-24">
+                <div className="tech-title my-8 flex flex-col md:flex-row items-center md:gap-16 gap-4">
                     <LogoBig href={technology?.logo || "https://placehold.co/100"} alt={technology?.title || "Technology Logo"}/>
                     <div className="tech-about">
                         <h2 className="text-2xl font-bold">{technology?.title}</h2>
@@ -42,7 +42,7 @@ function TechnologyDetail() {
                         {externalLinks}
                     </div>
                 </div>
-                <div className="tech-body my-16">
+                <div className="tech-body md:my-16">
                     
                     <p className="mt-2">{technology?.comment}</p>
 

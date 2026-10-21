@@ -5,7 +5,7 @@ function CardContainer({ cardList = {}, title = "" }: { cardList?: Record<string
     const cards = Array.isArray(cardList) ? cardList : Object.values(cardList);
     return (
         <div className="cards-container py-10">
-            <h4 className="text-2xl font-bold text-center pb-4">{title ? title : "Card Container"}</h4>
+            <h4 className="text-2xl font-bold text-center pb-4 block">{title ? title : "Card Container"}</h4>
             <div className="flex flex-wrap gap-8 justify-center ">
                 {cards.map(card => <Card key={card.slug} obj={card} />)}
             </div>
